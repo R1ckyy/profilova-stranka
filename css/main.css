@@ -1,0 +1,31 @@
+::-webkit-scrollbar{
+    border: cyan;
+}
+body, html{
+    height: 100%;
+    z-index: 2;
+}
+body{
+    background-color: black !important;
+}
+main{
+    margin-top: 200px;
+}
+.bg-image{
+    background-image: url(../img/background.gif) !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: blur(10px) brightness(0.75);
+    height: 100%;
+}
+.navbar{
+    background-color: #101010;
+}
+.logo{
+    border-radius: 100% !important;
+}
+.custom1{
+    color:cyan;
+}
