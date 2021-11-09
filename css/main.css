@@ -1,24 +1,27 @@
 ::-webkit-scrollbar{
-    border: cyan;
+    display: none
 }
 body, html{
     height: 100%;
-    z-index: 2;
 }
 body{
-    background-color: black !important;
+    background: rgba(0, 0, 0, 1) !important;
 }
 main{
     margin-top: 200px;
+    z-index: 2 !important;
+}
+.card{
+    background-color: #202020 !important;
 }
 .bg-image{
     background-image: url(../img/background.gif) !important;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    z-index: -1;
-    filter: blur(10px) brightness(0.75);
-    height: 100%;
+    filter: blur(10px) brightness(0.5);
+    height: 100% !important;
+    z-index: -1 !important;
 }
 .navbar{
     background-color: #101010;
@@ -28,4 +31,10 @@ main{
 }
 .custom1{
     color:cyan;
+}
+.custombg{
+    background-color: #101010;
+}
+footer{
+    background-color: #101010;
 }
